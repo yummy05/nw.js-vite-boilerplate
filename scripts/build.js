@@ -25,6 +25,7 @@ copyNodeModules(srcDir, dstDir, { devDependencies: false }, (err, results) => {
   const nw = new NwBuilder({
     files: './dist/**/**',
     version: 'latest',
+    platforms: ['osx64', 'win64'],
     flavor: 'normal',
     buildDir: './build',
     cacheDir: './node_modules/nw-builder/cache',
