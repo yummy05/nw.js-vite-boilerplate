@@ -1,0 +1,20 @@
+{
+	"main": "http://localhost:3000",
+	"node-remote": "http://localhost:3000",
+	"name": "Vite & NW.JS",
+	"chromium-args": "--enable-webvr --webxr --enable-gamepad-extensions --enable-gamepad-vibration --enable-spell-checking --remote-debugging-port=9222",
+	"description": "Vite & NW.JS",
+	"version": "0.1.0",
+	"permissions": [
+		"file:///*",
+		"http://*/*",
+		"https://*/*"
+	],
+	"window": {
+		"frame": true,
+		"toolbar": true,
+		"min_width": 220,
+		"min_height": 65,
+		"as_desktop": true
+	}
+}
