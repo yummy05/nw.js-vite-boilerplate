@@ -1,5 +1,5 @@
 # NW.js Vite Boilerplate
-Boilerplate for NW.j using Vite, React, and TailwindCSS
+Boilerplate for NW.js using Vite, React, and TailwindCSS
 
 ## Setup
 ```bash
@@ -14,4 +14,4 @@ yarn build
 ```
 
 ## Things to keep in mind
-To import packages from that are meant to be used from the node runtime (`window.nw.require`), you need to import the file require.js. This file wraps the function window.nw.require to prevent/trick vite from trying to polyfill it.
+To import node packages (`window.nw.require`), you need to import the file require.js. This file wraps the function window.nw.require to prevent/trick vite from trying to polyfill it.
